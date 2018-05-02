@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  
+}
+.selectView {
+  max-width: 20%;
+  min-height: 30%;
+  background-color: aquamarine;
+  padding: 3em;
+  margin: 3em;
+  margin: 10px auto;
+  position: relative;
+  text-align:center;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+.mainView {
+  min-width: 40%;
+  min-height: 40%;
+  background-color: lightblue;
+  align-content: center;
+  padding: 3em;
+  margin: 3em;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+
+}
+
