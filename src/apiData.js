@@ -1,21 +1,21 @@
 const data = [
     { 
     id: 1,
-    title: 'First',
-    subtitle: 'first subtitle',  
-    url: 'www.first.com'
+    title: 'George Washington ',
+    subtitle: '1789 to 1797',  
+    //url: 'https://en.wikipedia.org/wiki/George_Washington'
     },
     {
     id:2, 
-    title: 'Second',
-    subtitle: 'second subtitle',  
-    url: 'www.second.com'
+    title: 'Thomas Jefferson',
+    subtitle: '1801-1809',  
+    //url: 'https://en.wikipedia.org/wiki/Thomas_Jefferson'
     },
     { 
     id: 3,
-    title: 'Third',
-    subtitle: 'Third subtitle',  
-    url: 'www.third.com'
+    title: 'Ulysses S. Grant',
+    subtitle: '1869-1877',  
+    //url: 'https://en.wikipedia.org/wiki/Ulysses_S._Grant'
     },
 ]
 

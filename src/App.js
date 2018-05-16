@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import SelectView from './components/selectView'
 import MainView from './components/MainView'
-
+import SideView from './components/MainView'
 
 class App extends Component {
  render() {
@@ -16,6 +16,8 @@ class App extends Component {
         </header>
         <SelectView />
         <MainView />
+        
+
       </div>
     );
   }
