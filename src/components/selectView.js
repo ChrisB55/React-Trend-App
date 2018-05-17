@@ -6,7 +6,8 @@ class SelectView extends Component {
   render() {
     
     return (
-    // This is a functional style, creating a similar effect to a for loop. 
+    // This is a functional style, creating a similar effect to a for loop.
+    //Pulling fake API, no props or state used.  
         <div className="container">
           {data.map((data, id) =>
              <div key={id}className="selectView">
