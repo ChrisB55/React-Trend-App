@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './components/Header'
 import SelectView from './components/selectView'
 import MainView from './components/MainView'
 import SideView from './components/sideView'
@@ -11,9 +12,7 @@ class App extends Component {
   
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome</h1>
-        </header>
+        <Header />
         <SelectView />
         <Card 
         title1="George Washington" 
