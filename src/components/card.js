@@ -1,25 +1,22 @@
-import React, { Component } from 'react';
-import '../App.css';
-import data from '../apiData';
+import React, { Component } from "react";
+import "../App.css";
+import data from "../apiData";
 
 class Card extends Component {
   render() {
     this.props = data;
     return (
-    // This is the same functional style used in SelectView, used with Props this time.
-    <div className="container">
-    {data.map((data, id) =>
-      <div key={id} className="selectView" >
-      {data.title} 
-      <br />
-      {data.subtitle}
+      // This is the same functional style used in SelectView, used with Props this time.
+      <div className="container">
+        {data.map((data, id) => (
+          <div key={id} className="selectView">
+            {data.title}
+            <br />
+            {data.subtitle}
+          </div>
+        ))}
       </div>
-      )}
-    
-  </div>
-    
-    
-    
+
       /*<div className="container">
         <div className="cardView">
         <div className="col-sm">
@@ -32,10 +29,8 @@ class Card extends Component {
               </div>
               </div>
         </div> > */
-        
     );
-    }
   }
-
+}
 
 export default Card;
