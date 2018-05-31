@@ -5,7 +5,18 @@ class Header extends Component {
   render() {
     return (
       <header className="App-header">
-        <h1 className="App-title">Welcome</h1>
+        <Router>
+          <div>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+            </ul>
+            </div>
+        </Router>
       </header>
     );
   }
