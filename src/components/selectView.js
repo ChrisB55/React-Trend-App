@@ -16,6 +16,8 @@ class SelectView extends Component {
               {data.subtitle}
               <br />
               {data.url} 
+              <br />
+              <button> </button>
               </div>
             )} 
         </div> 

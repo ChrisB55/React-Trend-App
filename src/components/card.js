@@ -7,7 +7,7 @@ class Card extends Component {
     this.props = data;
     return (
       // This is the same functional style used in SelectView, used with Props this time.
-      <div className="container">
+     /* <div className="container">
         {data.map((data, id) => (
           <div key={id} className="selectView">
             {data.title}
@@ -15,9 +15,9 @@ class Card extends Component {
             {data.subtitle}
           </div>
         ))}
-      </div>
+      </div>*/
 
-      /*<div className="container">
+      <div className="container">
         <div className="cardView">
         <div className="col-sm">
              
@@ -28,7 +28,7 @@ class Card extends Component {
         
               </div>
               </div>
-        </div> > */
+        </div>
     );
   }
 }
