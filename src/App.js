@@ -6,8 +6,16 @@ import MainView from "./components/MainView";
 import SideView from "./components/sideView";
 import Card from "./components/card";
 import { render } from "react-dom";
+import data from './apiData';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = data;
+  }
+  
+  
   render() {
     
     return (
